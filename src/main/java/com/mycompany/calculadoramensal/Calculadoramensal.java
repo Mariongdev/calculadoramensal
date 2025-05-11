@@ -14,6 +14,7 @@ public class Calculadoramensal {
     public static void main(String[] args) {
         // Criar a janela principal
         JFrame frame = new JFrame("Gestão Financeira Mensal");
+        frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(500, 500);
         frame.setLayout(new BorderLayout(10, 10));
